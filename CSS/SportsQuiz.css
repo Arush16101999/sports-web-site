@@ -1,0 +1,116 @@
+
+
+/* external css for badmintonQuiz page */
+/* css for body in the main html */
+	
+
+/* tooltip logo hover */	
+/*.tooltip {
+}
+
+ 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    
+    background-color: MidnightBlue;
+    color: OldLace;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px 5px 5px;
+
+    /* Position the tooltip */
+ /*bottom: 150%;
+  left: 50%;
+  margin-top: 150px;
+  margin-left: -80px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}*/
+
+/* timer */	
+#box{
+	line-height:1.5em;
+}
+.header_quiz{
+	width: 100%;
+	height: 100px;
+}
+.quiz_questions{
+	width:100%;
+	height:1900px;
+}
+.quiz_questions #time {
+
+	border-radius: 10px;
+	position:fixed;
+	right:0; 
+	top:150px;
+	padding: 10px;
+	background:#404040;
+	font-size: 20px;
+	color: WhiteSmoke ;
+	text-align: center;
+	font-family: Lucida Console, Monospace;
+	} 
+	
+/* heading */
+.quiz_questions #C4{
+	font-size: 40px;
+	color: WhiteSmoke ;
+	font-family: Lucida Console, Monospace;
+	text-align: center;
+	}
+	
+/* container for the quiz */
+.quiz_questions #quiz {
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 30px;
+	padding: 20px 20px 20px 20px;
+	background: #404040;
+	color: WhiteSmoke ;
+	opacity: 0.9;
+	}
+
+/* buttons */
+.quiz_questions #button2 {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	background: #808080;
+	color: WhiteSmoke ;
+	}
+
+.quiz_questions #button2:hover {
+	background: #595959;
+	color: WhiteSmoke;
+	cursor: pointer;
+	}
+	
+.quiz_questions a:hover{
+    background: #737373;
+	border-radius:40%;
+	}
+
+/* display after submit */	
+#after_submit{
+	visibility: hidden;
+	}
+
+
+
+/* footer */		
+/*.footer {
+	width: 95%;
+	height: 35%;
+	border-radius: 30px;
+	position:fixed;
+	padding: 5px 5px 8px 20px;
+	background: #808080;
+	color: WhiteSmoke; 
+
+	}
+	
+

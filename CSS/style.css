@@ -1,0 +1,147 @@
+/*common styles*/
+*{
+    font-family: Corbel,Calbri, sans-serif;
+	color:white;
+
+	
+
+}
+.aboutUsLayout{
+	width:100%;
+	height:700px;
+	font-size:18px;
+	line-height:2em;
+}
+
+
+/*cv styles*/
+.no-hero {
+    position: relative;
+    top: 100px;
+}
+
+.cv-meta-data {
+    display: flex;
+}
+
+
+.shadow-wrapper{
+    
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    -webkit-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.15);
+    padding: 10px;
+}
+
+
+.cv-image {
+    flex: 1;
+}
+
+.cv-meta-data-content {
+    flex: 2;
+}
+
+.cv-image > img {
+    width: 250px;
+    height: 250px;
+}
+
+.cv-meta-data-content ul.item-list {
+    list-style-type: none;
+}
+
+.cv-meta-data-content li.item-listing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.32);
+}
+
+/*end of cv*/
+
+/*about us section*/
+.container-about{
+    cursor: pointer;
+}
+
+.caption {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
+}
+
+.caption__media {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: 350px;
+
+	
+}
+
+.caption__overlay {
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.caption__overlay__title {
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+    transform: translateY( calc(-100% - 10px) );
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay__title {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.about-thumbs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-about {
+    flex-basis: 24%;
+}
+
+.cv-description {
+    margin: 10px;
+}
+
+/*end of about us*/
+

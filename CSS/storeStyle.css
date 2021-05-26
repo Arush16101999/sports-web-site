@@ -1,0 +1,92 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+h2{
+	font-size: 50px;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
+	padding-top:20px;
+	margin: auto;
+	font-family: Corbel, Calbri, sans-serif;     
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 25px;
+    background: rgba(255,255,255,0.8);
+	height:250px;
+	width:80%;
+}
+.storeWelcoming{
+	font-family: Corbel, Calbri, sans-serif;
+	font-size:30px;
+	margin:auto;
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	top:50%;
+	left:25%;
+	position:absolute;
+	padding:20px;
+	border-radius:20px;
+}
+.placeOrder{
+	width:80%;
+	margin:auto;
+	height:60px;
+}
+.item_description{
+	float:right;
+	padding-top:50px;
+}
+.item_pic{
+	float:left;
+}
+.placeOrderButtonLayout{
+	float:right;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=reset]{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#details{
+    width:30%;
+	margin:auto;
+	font-family: Corbel, Calbri, sans-serif;      
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+    background: #030303;
+    background-size:1530px 800px;
+}
+
+#fline{
+	text-align: right;
+}
+
+	
+
+	
+				
+
+

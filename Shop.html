@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shop</title>
+		<link rel="stylesheet" type="text/css" href="CSS/myStyles.css">
+		<link rel="stylesheet" type="text/css" href="CSS/storeStyle.css">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<div class="header_shop">
+			<div class="navbar">
+				<img src="photos/logo2.png" width="8%" height="8%">
+				<div class="navbar-right">
+					<ul>
+					  <li><a href="Main Page.html">Home</a></li>
+						<li><a href="About us.html">About us</a></li>
+						<li><a href="Shop.html">Shop</a></li>
+						<li><a href="quiz Start Page.html">Quiz</a></li>
+						<li><a href="sitemap.html">Site Map</a></li>
+						<li><a href="gallery.html">Images</a></li>
+						<li><a href="form.html">Feedback</a></li>
+				    </ul>
+			    </div>		
+			</div>
+			<div class="storeWelcoming">
+				<h1>Welcome to Our Shop</h1>
+			</div>
+		</div>
+		<form name="MyForm" onsubmit="return validateForm()">
+
+			<div id="details">
+				<table>
+					<tr>
+						<td><label for="name"> <b>Full Name</b> </label><br><br></td>
+						<td><input type="text" id="name" name="fullname"><br><br></td>
+					</tr>
+					<tr>
+						<td><label for="email"><b> E-mail </b></label><br><br></td>
+						<td><input type="email" id="email" name="Email"><br><br></td>
+					</tr>
+					<tr>
+						<td><label for="Address"> <b>Address</b> </label><br><br></td>
+						<td><input type="text" id="address" name="Address"><br><br></td>
+					</tr>
+					<tr>					
+						<td><label for="Mnumber"><b> Mobile Number</b> </label><br><br></td>
+						<td><input type="text" id="mnumber" name="Mnumber"><br><br></td>
+					</tr>
+				</table>
+			</div>
+
+            <div class="store_outline">
+			<div class="p1">
+				<div class="item_pic">
+					<img class="imgP" src="photos/item1.jpeg" width="120" height="120">
+					<h2> Cricket Bat </h2>
+				</div>
+				<div class="item_description">
+					<b> Rs 12500.00 </b><br>
+					+ Free shipping<br>
+					Product Quantity You Want:
+					<input id="product1" type="number" name="PQuantity" min="0">
+					<br/>
+					<button type="button" onclick="shopedProduct1()"> Add To My cart </button>
+				</div>
+			</div>
+
+			<div class="p2">
+				<div class="item_pic">
+					<img class="imgP" src="photos/item2.jpg" width="120" height="120">
+					<h2> Hockey Stick </h2>
+				</div>
+				<div class="item_description">
+					<b>Rs 9500.00 </b><br/>
+					+ Free shipping<br>
+					Product Quantity You Want:
+					<input id="product2" type="number" name="PQuantity" min="0">
+					<br/>
+					<button type="button" onclick="shopedProduct2()"> Add To My cart </button>
+				</div>
+			</div>
+
+			<div class="p3">
+				<div class="item_pic">
+					<img class="imgP" src="photos/item3.jpg" width="120" height="120" >
+					<h2>Soccer Ball</h2>
+				</div>
+				<div class="item_description">
+					<b>Rs 5000.00 </b><br/>
+					+ Free shipping<br>
+					Product Quantity You Want:
+					<input id="product3" type="number" name="PQuantity" min="0">
+					<br/>
+					<button type="button" onclick="shopedProduct3()"> Add To My cart </button>
+				</div>
+			</div>
+
+			<div class="p4">
+				<div class="item_pic">
+					<img class="imgP" src="photos/item4.jpg" width="120" height="120">
+					<h2>Cricket Helmet</h2>
+				</div>
+				<div class="item_description">
+					<b>Rs 3000.00 </b><br/>
+					+ Free shipping<br>
+					Product Quantity You Want:
+					<input id="product4" type="number" name="PQuantity" min="0">
+					<br/>
+					<button type="button" onclick="shopedProduct4()"> Add To My cart </button>
+				</div>
+			</div>
+
+			<div class="p5">
+				<div class="item_pic">
+					<img class="imgP" src="photos/item 5.jpg" width="120" height="120">
+					<h2> Soccer Shoes </h2>
+				</div>
+				<div class="item_description">
+					<b>Rs 9500.00 </b><br/>
+					+ Free shipping<br>
+					Product Quantity You Want:
+					<input id="product5" type="number" name="PQuantity" min="0">
+					<br/>
+					<button type="button" onclick="shopedProduct5()"> Add To My cart </button>
+				</div>
+			</div>
+		
+			<div class="p6">
+				<div class="item_pic">
+					<img  src="photos/item7.jpg" width="120" height="120">
+					<h2> Badminton Racket </h2>
+				</div>
+				<div class="item_description">
+					<b> Rs 5000.00 </b><br/>
+					+ Free shipping<br>
+					Product Quantity You Want:
+					<input id="product6" type="number" name="PQuantity" min="0">
+					<br/>
+					<button type="button" onclick="shopedProduct6()"> Add To My cart </button>
+				</div>
+			</div>
+           <div class="placeOrder">
+				<div class="placeOrderButtonLayout">
+					<input type="submit" value="Place Your Order" class="purchase">
+					<input type="reset" value="Reset" class="reset">
+				</div>
+			</div>
+			</div>
+
+		</form>
+	  <script src="JS/myScript.js"></script>
+	  <script src="JS/storeScript.js"></script>
+	  <div class="footer">
+		<a href="sanjulaWB.html">Page Developer</a>
+	  </div>	
+	</body>
+</html>

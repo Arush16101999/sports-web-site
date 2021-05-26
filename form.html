@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Feedback</title>
+		<link rel="stylesheet" type="text/css" href="CSS/myStyles.css">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</i></button>
+		<div class="header_feedback">
+			<div class="navbar">
+				<img src="photos/logo2.png" width="8%" height="8%">
+				<div class="navbar-right">
+					<ul>
+					  <li><a href="Main Page.html">Home</a></li>
+						<li><a href="About us.html">About us</a></li>
+						<li><a href="Shop.html">Shop</a></li>
+						<li><a href="quiz Start Page.html">Quiz</a></li>
+						<li><a href="sitemap.html">Site Map</a></li>
+						<li><a href="gallery.html">Images</a></li>
+						<li><a href="form.html">Feedback</a></li>
+				 </ul>
+			 </div>
+			
+			</div>
+		</div>
+		<div class="outline">
+			<div class="feedback">
+				<div class="feedback_bg"></div>
+				<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+				<div class="feedback_content">
+						<h1>Have any ideas for us?</h1></i><br>
+						<h3><table>
+							<tr>
+								<td><label for="first_name">First name:</label><br><br></td>
+								<td><input type="text" name="firstname" id="first_name" placeholder="First name" /><br><br><td>
+							</tr>
+							<tr>
+								<td><label for="surname">Surname:</label><br><br></td>
+								<td><input type="text" name="surname" id="surname" placeholder="Surname" /><br><br></td>
+							</tr>
+							<tr>
+								<td><label for="email">Email:</label><br><br></td>
+								<td><input type="email" name="emailaddress" id="email" placeholder="Email Address" /><br><br></td>
+							</tr>
+							<tr>
+								<td><label for="rating">How would you rate us:</label><br><br></td>
+								<td><input type="radio" name="radioButton" id="rating1" value="excellent" />Excellent 
+									<input type="radio" name="radioButton" id="rating2" value="good" />Good 
+									<input type="radio" name="radioButton" id="rating3" value="poor" />Poor 
+									<input type="radio" name="radioButton" id="rating4" value="bad" />Bad<br><br></td>
+							</tr>
+							<tr>
+								<td><label for="text">Any comments:</label><br><br></td>
+								<td><textarea name="textarea" cols="24" rows="2" id="comments"></textarea><br><br></td>
+							</tr>
+							<tr>
+								<td><input type="submit" name="submit" id="submitComment" value="Submit Query"/></td>
+								<td><input type="reset" name="submit2" id="resetComment" value="Reset"/></td> 
+							</tr>
+						</table></h3>	
+				</div>
+			    </form>
+			</div>
+		</div>
+		<script src="JS/myScript.js"></script>
+		<div class="footer">
+			<a href="hiruniWB.html">Page Developer</a>
+		</div>
+	</body>
+</html>

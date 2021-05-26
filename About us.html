@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Us</title>
+		<link rel="stylesheet" type="text/css" href="CSS/myStyles.css">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<div class="header_aboutUs">
+			<div class="navbar">
+				<img src="photos/logo2.png" width="8%" height="8%">
+				<div class="navbar-right">
+					<ul>
+						<li><a href="Main Page.html">Home</a></li>
+						<li><a href="About us.html">About us</a></li>
+						<li><a href="Shop.html">Shop</a></li>
+						<li><a href="quiz Start Page.html">Quiz</a></li>
+						<li><a href="sitemap.html">Site Map</a></li>
+						<li><a href="gallery.html">Images</a></li>
+						<li><a href="form.html">Feedback</a></li>
+				 </ul>
+			 </div>			
+			</div>
+		</div>
+		<div class="aboutUsLayout">
+			<section class="cv no-hero">
+				<div class="container">
+					<div class="shadow-wrapper" style="text-align:center">
+						<h1>Who Are We?</h1>
+						<div class="cv-description">2018 was the year we started a small retail Sports equipment store. As People’s passion 
+						for sports grew, our business flourished from local to a regional whole sale leader while we provided comprehensive set of 
+						lists of branded sports equipments to schools and sports clubs. We now sponsor some of the major local sports competitions and 
+						tournaments, becoming an upcoming company in Sri Lanka</div>
+
+
+						<div class="about-thumbs">
+							<div class="container-about" onclick="viewCV('sanjula')">
+
+
+								<article class="caption">
+									<img class="caption__media" src="photos/sanjula.jpeg" />
+									<div class="caption__overlay">
+										<h1 class="caption__overlay__title">Student 1</h1>
+										<p class="caption__overlay__content">
+											Name : Sanjula Samarasekara <br> IIT ID : W1761213 <br> UOW ID : 2019182
+										</p>
+									</div>
+								</article>
+							</div>
+
+
+							<div class="container-about" onclick="viewCV('hiruni')">
+								<article class="caption">
+									<img class="caption__media" src="photos/hiruni.jpeg" />
+									<div class="caption__overlay">
+										<h1 class="caption__overlay__title">Student 2</h1>
+										<p class="caption__overlay__content">
+											Name : Hiruni Silva <br> IIT ID : 2019158 <br> UOW ID : W1761071
+										</p>
+									</div>
+								</article>
+							</div>
+							<div class="container-about" onclick="viewCV('arushan')">
+								<article class="caption">
+									<img class="caption__media" src="photos/arush.jpeg" />
+									<div class="caption__overlay">
+										<h1 class="caption__overlay__title">Student 3</h1>
+										<p class="caption__overlay__content">
+											Name : Manoharan Arushan <br> IIT ID : 2019208 <br> UOW ID : W1761076
+										</p>
+									</div>
+								</article>
+							</div>
+							<div class="container-about"onclick="viewCV('amesh')">
+
+								<article class="caption">
+									<img class="caption__media" src="photos/amesh.jpg" />
+									<div class="caption__overlay">
+										<h1 class="caption__overlay__title">Student 4</h1>
+										<p class="caption__overlay__content">
+											Name : Amesh Sivakumar  <br> IIT ID : 2019196 <br> UOW ID : W1761074
+										</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+			</section>
+	     </div>	
+	  <script>
+		function viewCV(name){
+		window.location.href= name+ ".html"
+		}
+	  </script>
+	  <script src="JS/myScript.js"></script>
+	  <div class="footer">
+		<a href="arushanWB.html">Page Developer</a>
+	  </div>	
+	</body>
+</html>

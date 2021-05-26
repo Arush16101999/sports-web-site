@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Active Soul</title>
+		<link rel="stylesheet" type="text/css" href="CSS/galleryCSS.css">
+		<link rel="stylesheet" type="text/css" href="CSS/myStyles.css">
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<div class="header_gallery">
+			<div class="navbar">
+				<img src="photos/logo2.png" width="8%" height="8%">
+				<div class="navbar-right">
+					<ul>
+						<li><a href="Main Page.html">Home</a></li>
+						<li><a href="About us.html">About us</a></li>
+						<li><a href="Shop.html">Shop</a></li>
+						<li><a href="quiz Start Page.html">Quiz</a></li>
+						<li><a href="sitemap.html">Site Map</a></li>
+						<li><a href="gallery.html">Images</a></li>
+						<li><a href="form.html">Feedback</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="form_container">
+			<form>
+				<div id="select_container">
+					<div class="background_colour_changer">
+						<label for="background_colour"><span class="labels">Background colour</span></label>
+						<select id="background_colour" onchange="backgroundChanger(this.form)">
+							<option value="black">Black</option>
+							<option value="white">White</option>
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+					<div class="text_colour_changer">
+						<label for="text_colour"><span class="labels">Text colour</span></label>
+						<select id="text_colour" onchange="textChanger(this.form)">
+							<option value="white">White</option>
+							<option value="black">Black</option>
+							<option value="blue">Blue</option>
+							<option value="red">Red</option>
+							<option value="green">Green</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="image_selections">
+					<ul>
+						<li id="image1" onclick="imageClick(this.id)"><img src="photos/cricket_general.jpg" width="272" height="170" ><div class="description"><p id="sport_tagline">Cricket is the most popular sport in Sri Lanka, as Sri Lanka is one of few countries which participates in World Cup tournaments.</p></div></li>
+						<li id="image2" onclick="imageClick(this.id)"><img src="photos/badminton_china.jpg" width="272" height="170" ><div class="description"><p id="sport_tagline">China has the most olympic medals for badminton, Lin Dan <em>(pictured above)</em> is the most popular badminton player in China.</p></div></li></li>
+						<li id="image3" onclick="imageClick(this.id)"><img src="photos/hockey_india.jpg" width="272" height="170" ><div class="description"><p id="sport_tagline">India has won the olympic gold medel for hockey 8 times, Hockey is very popular among countries like India and Pakistan.</p></div></li></li>
+						<li id="image4" onclick="imageClick(this.id)"><img src="photos/pele.jpg" width="272" height="170" ><div class="description"><p id="sport_tagline">Brazilian football legend Pele holds the guinness world record for most goals scored between 1956 - 1977 or a period of 1,363 matches</p></div></li></li>
+						<li id="image5" onclick="imageClick(this.id)"><img src="photos/cricket_srilanka.jpg" width="272" height="170" ><div class="description"><p id="sport_tagline">Sri Lanka won it's first cricket world cup in 1996, against Australia. It was considered as an iconic moment in the history of Sri Lankan cricket.</p></div></li></li>
+					</ul>
+				</div>
+				<div id="image_container">
+					
+				</div>
+			</form>
+		</div>
+	  <script src="JS/galleryJS.js"></script>
+		<div class="footer">
+			<a href="ameshWB.html">Page Developer</a>
+		</div>	
+	</body>
+</html>
